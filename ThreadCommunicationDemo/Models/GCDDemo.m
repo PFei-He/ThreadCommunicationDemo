@@ -15,7 +15,7 @@
 ///开始执行线程
 - (void)start
 {
-    //创建线程
+    //创建线程一
     dispatch_queue_t queue = dispatch_queue_create("com.PF-Lib.gcd.queue1", 0);
     
     dispatch_async(queue, ^{//线程一
@@ -28,7 +28,7 @@
             UILabel *label = (UILabel *)[self.view viewWithTag:1];
             label.text = @"This is thread 1 (GCD)";
             
-            //创建线程
+            //创建线程二
             dispatch_queue_t queue = dispatch_queue_create("com.PF-Lib.gcd.queue2", 0);
             
             dispatch_async(queue, ^{
