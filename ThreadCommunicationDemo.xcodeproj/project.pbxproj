@@ -12,11 +12,11 @@
 		0568B8B51B96E67100410950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0568B8B41B96E67100410950 /* Images.xcassets */; };
 		0568B8B81B96E67100410950 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0568B8B61B96E67100410950 /* LaunchScreen.xib */; };
 		0568B8C41B96E67100410950 /* ThreadCommunicationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8C31B96E67100410950 /* ThreadCommunicationDemoTests.m */; };
-		0568B8EF1B96EBFF00410950 /* GCDDmeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8E81B96EBFF00410950 /* GCDDmeo.m */; };
 		0568B8F01B96EBFF00410950 /* NSBlockOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8EA1B96EBFF00410950 /* NSBlockOperationDemo.m */; };
 		0568B8F11B96EBFF00410950 /* NSInvocationOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8EC1B96EBFF00410950 /* NSInvocationOperationDemo.m */; };
 		0568B8F21B96EBFF00410950 /* NSThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8EE1B96EBFF00410950 /* NSThreadDemo.m */; };
 		0568B8F51B96EC0A00410950 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8F41B96EC0A00410950 /* RootVC.m */; };
+		0568B8F81B96F76E00410950 /* GCDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568B8F71B96F76E00410950 /* GCDDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		0568B8BD1B96E67100410950 /* ThreadCommunicationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadCommunicationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0568B8C21B96E67100410950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0568B8C31B96E67100410950 /* ThreadCommunicationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadCommunicationDemoTests.m; sourceTree = "<group>"; };
-		0568B8E71B96EBFF00410950 /* GCDDmeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDDmeo.h; sourceTree = "<group>"; };
-		0568B8E81B96EBFF00410950 /* GCDDmeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDDmeo.m; sourceTree = "<group>"; };
 		0568B8E91B96EBFF00410950 /* NSBlockOperationDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBlockOperationDemo.h; sourceTree = "<group>"; };
 		0568B8EA1B96EBFF00410950 /* NSBlockOperationDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBlockOperationDemo.m; sourceTree = "<group>"; };
 		0568B8EB1B96EBFF00410950 /* NSInvocationOperationDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSInvocationOperationDemo.h; sourceTree = "<group>"; };
@@ -50,6 +48,8 @@
 		0568B8EE1B96EBFF00410950 /* NSThreadDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemo.m; sourceTree = "<group>"; };
 		0568B8F31B96EC0A00410950 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
 		0568B8F41B96EC0A00410950 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		0568B8F61B96F76E00410950 /* GCDDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDDemo.h; sourceTree = "<group>"; };
+		0568B8F71B96F76E00410950 /* GCDDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +140,8 @@
 		0568B8E61B96EBFF00410950 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0568B8E71B96EBFF00410950 /* GCDDmeo.h */,
-				0568B8E81B96EBFF00410950 /* GCDDmeo.m */,
+				0568B8F61B96F76E00410950 /* GCDDemo.h */,
+				0568B8F71B96F76E00410950 /* GCDDemo.m */,
 				0568B8E91B96EBFF00410950 /* NSBlockOperationDemo.h */,
 				0568B8EA1B96EBFF00410950 /* NSBlockOperationDemo.m */,
 				0568B8EB1B96EBFF00410950 /* NSInvocationOperationDemo.h */,
@@ -252,12 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0568B8F51B96EC0A00410950 /* RootVC.m in Sources */,
-				0568B8EF1B96EBFF00410950 /* GCDDmeo.m in Sources */,
 				0568B8F21B96EBFF00410950 /* NSThreadDemo.m in Sources */,
 				0568B8AD1B96E67100410950 /* AppDelegate.m in Sources */,
 				0568B8F11B96EBFF00410950 /* NSInvocationOperationDemo.m in Sources */,
 				0568B8AA1B96E67100410950 /* main.m in Sources */,
 				0568B8F01B96EBFF00410950 /* NSBlockOperationDemo.m in Sources */,
+				0568B8F81B96F76E00410950 /* GCDDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +448,7 @@
 				0568B8C91B96E67100410950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0568B8CA1B96E67100410950 /* Build configuration list for PBXNativeTarget "ThreadCommunicationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +457,7 @@
 				0568B8CC1B96E67100410950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

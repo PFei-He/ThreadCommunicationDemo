@@ -1,5 +1,5 @@
 //
-//  GCDDmeo.h
+//  GCDDemo.h
 //  ThreadCommunicationDemo
 //
 //  Created by PFei_He on 15/9/2.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface GCDDmeo : NSObject
+@interface GCDDemo : NSObject
 
 ///主线程上的根视图
 @property (nonatomic, strong) UIView *view;

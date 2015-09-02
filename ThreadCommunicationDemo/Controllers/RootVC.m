@@ -10,7 +10,7 @@
 #import "NSThreadDemo.h"
 #import "NSInvocationOperationDemo.h"
 #import "NSBlockOperationDemo.h"
-#import "GCDDmeo.h"
+#import "GCDDemo.h"
 
 @interface RootVC ()
 
@@ -47,7 +47,7 @@
 //    NSThreadDemo *demo = [[NSThreadDemo alloc] init];
 //    NSInvocationOperationDemo *demo = [[NSInvocationOperationDemo alloc] init];
 //    NSBlockOperationDemo *demo = [[NSBlockOperationDemo alloc] init];
-    GCDDmeo *demo = [[GCDDmeo alloc] init];
+    GCDDemo *demo = [[GCDDemo alloc] init];
     demo.view = self.view;
     [demo start];
 }

@@ -1,14 +1,14 @@
 //
-//  GCDDmeo.m
+//  GCDDemo.m
 //  ThreadCommunicationDemo
 //
 //  Created by PFei_He on 15/9/2.
 //  Copyright (c) 2015年 PF-Lib. All rights reserved.
 //
 
-#import "GCDDmeo.h"
+#import "GCDDemo.h"
 
-@implementation GCDDmeo
+@implementation GCDDemo
 
 #pragma mark - GCD
 
